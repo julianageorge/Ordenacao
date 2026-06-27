@@ -14,14 +14,4 @@ public class Ordenacao {
             v[i] = x;
         }
     }
-    
-    // New method
-    public static boolean isSorted(int[] v, int n) {
-        for (int i = 1; i < n; i++) {
-            if (v[i - 1] > v[i]) {
-                return false;
-            }
-        }
-        return true;
-    }
 }
